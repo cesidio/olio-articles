@@ -1,24 +1,22 @@
-# README
+# OLIO Articles
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple Ruby app using the [Rails](http://rubyonrails.org) framework.
 
-Things you may want to cover:
+## Running Locally
 
-* Ruby version
+Make sure you have [Ruby](https://www.ruby-lang.org) and [Bundler](http://bundler.io) installed.
 
-* System dependencies
+```sh
+git clone git@github.com:cesidio/olio-articles.git
+cd olio-articles
+bundle
+bundle exec rails db:setup
+rails s
+```
+OLIO articles app should now be running on [localhost:3000](http://localhost:3000/).
 
-* Configuration
+In order to run the specs:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```sh
+rake
+```
