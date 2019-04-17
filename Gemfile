@@ -7,6 +7,7 @@ ruby '2.6.2'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'coffee-rails', '~> 4.2'
+gem 'httparty'
 gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.2', '>= 5.2.2.1'
 gem 'sass-rails', '~> 5.0'
